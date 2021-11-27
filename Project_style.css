@@ -1,0 +1,135 @@
+.Projects span{
+    left: 13.5520%;
+    top: 19.44444%;
+    font-size: 4.479167vw;
+    position: absolute;
+    color: black;
+    font-weight: 500;
+    font-family: 'Akira';
+}
+
+@media screen and (max-width: 1600px){
+    #projectBack{
+        position: absolute;
+        width: 100%;
+        height: 380%;
+        z-index: -10;
+    }
+}
+@media screen and (max-width: 1500px){
+    #projectBack{
+        position: absolute;
+        width: 100%;
+        height: 370%;
+        z-index: -10;
+    }
+}
+.Projects{
+    width: 98%;
+    position: absolute;
+    z-index: -1;
+    font-family: 'PingFang Medium';
+}
+.Projects #Project_ul{
+    position: absolute;
+    width: 71.25%;
+    height: 100%;
+    left: 13.5520%;
+    top: 35.1111%;
+}
+
+.Projects #Project_ul>li img{
+    position: absolute;
+    width: 100%;
+    transition: all 1s;
+}
+.Projects #Project_ul>li:hover img{
+    transform: scale(1.1);
+}
+.Projects #Project_ul>li{
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+@media screen and (max-width: 1600px){
+    .Projects #Project_ul>li:nth-child(5){
+        position: absolute;
+        width: 40.087783%;
+        top: 340%;
+    }
+    .Projects #Project_ul>li:nth-child(6){
+        position: absolute;
+        width: 40.087783%;
+        top: 340%;
+        left: 60.058522%;
+    }
+}
+@media screen and (max-width: 1500px){
+    .Projects #Project_ul>li:nth-child(5){
+        position: absolute;
+        width: 40.087783%;
+        top: 335%;
+    }
+    .Projects #Project_ul>li:nth-child(6){
+        position: absolute;
+        width: 40.087783%;
+        top: 335%;
+        left: 60.058522%;
+    }
+}
+
+.Projects #Project_ul>li>div:nth-child(1){
+    transition: all 1s;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 10;
+    background-color: #323232;
+}
+
+.Projects #Project_ul>li:hover div:nth-child(2){
+    opacity: 1;
+
+}
+
+.Projects #Project_ul>li:hover div:nth-child(1){
+    opacity: 0.65;
+}
+
+
+
+.Projects #Project_ul>li>div:nth-child(2){
+    transition: all 1s;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 500;
+    opacity: 0;
+    text-align: center !important;
+    color: white;
+    padding-top: 20%;
+}
+.Projects #Project_ul>li:nth-child(1)>div:nth-child(2){
+    padding-top: 20%;
+}
+.Projects #Project_ul>li:nth-child(2)>div:nth-child(2){
+    padding-top: 22%;
+}
+.Projects #Project_ul>li:nth-child(3)>div:nth-child(2){
+    padding-top: 15%;
+}
+.Projects #Project_ul>li>div:nth-child(2) h1{
+    font-size: 6.25vw;
+    font-family: 'Akira';
+}
+.Projects #Project_ul>li>div:nth-child(2) p{
+    font-size: 1.510417vw;
+    font-family: 'PingFang';
+}
+.Projects #Project_ul>li:nth-child(5)>div:nth-child(2) h1{
+    font-size: 2.395833vw;
+}
+.Projects #Project_ul>li:nth-child(6)>div:nth-child(2) h1{
+    font-size: 2.395833vw;
+}

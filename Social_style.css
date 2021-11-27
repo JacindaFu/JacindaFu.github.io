@@ -1,0 +1,115 @@
+.Social{
+    position: absolute;
+    width: 98%;
+    z-index: -1;
+}
+.Social h1{
+    position: absolute;
+    font-size: 4.01vw;
+    top: 24.22%;
+    left: 10.05%;
+    font-weight: 400;
+    font-family: 'Akira';
+}
+.Social>ul{
+    position: absolute;
+    width: 47.552083%;
+    height: 28.79%;
+    top: 40.555%;
+    left: 10.6777%;
+    font-family: 'PingFang Bold';
+}
+.Social ul li{
+    position: absolute;
+    background-color: #fff;
+    width: 44.468784%;
+    height: 30%;
+    color: black;
+    font-size: 0.9375vw;
+    animation: anim_img 1s;
+}
+.Social ul li>div>h2{
+    position: absolute;
+}
+.Social ul li:nth-child(1)>div>h2{
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+.Social ul li:nth-child(2)>div>h2{
+    position: absolute;
+    font-size: 1.51vw;
+    left:45%;
+    top: 30%;
+}
+.Social ul li:nth-child(3)>div>h2{
+    position: absolute;
+    font-size: 1.51vw;
+    left:45%;
+    top: 30%;
+}
+.Social ul li:nth-child(4)>div>h2{
+    position: absolute;
+    left:28%;
+    top: 37%;
+    font-size: 1.33vw;
+}
+.Social ul li>img:nth-child(1)
+{
+    height: 100%;
+    width: 25.369458%;
+}
+.Social ul li>img:nth-child(2)
+{
+    position: absolute;
+    width: 13.793103%;
+    left: 5.665%;
+    top: 17.995122%;
+}
+.Social ul li:nth-child(3)>img:nth-child(2)
+{
+    position: absolute;
+    width: 15.793103%;
+    height: 60%;
+    left: 4.465%;
+    top: 18.995122%;
+}
+.Social ul li:nth-child(4)>img:nth-child(2)
+{
+    position: absolute;
+    width: 13.793103%;
+    left: 5.665%;
+    top: 27%;
+}
+.Social ul li:nth-child(1){
+    left: 0px;
+    top: 0px;
+}
+.Social ul li:nth-child(2){
+    right: 0px;
+    top: 0px;
+}
+.Social ul li:nth-child(3){
+    left: 0px;
+    bottom: 0px;
+}
+.Social ul li:nth-child(3)>img{
+    height: 100%;
+}
+.Social ul li:nth-child(4){
+    right: 0px;
+    bottom: 0px;
+}
+.Social>img{
+    position: absolute;
+    left: 67.603167%;
+    top: 30.703704%;
+    width: 30.125%;
+}
+#Social_back{
+    position: absolute;
+    top: 15.944%;
+    height: 88.2%;
+    background-color: black;
+    z-index: -1;
+}
